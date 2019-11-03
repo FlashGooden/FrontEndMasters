@@ -33,7 +33,11 @@ const deleteUser = (id) => new Promise((resolve, reject) => {
   resolve({id})
 })
 
+//fixes or parses a string into a number 
+const fixId = (num) => parseInt(num)
+
 module.exports = {
   findUser,
-  deleteUser
+  deleteUser,
+  fixId
 }
