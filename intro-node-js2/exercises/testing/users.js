@@ -9,7 +9,11 @@ const users = new Array(20).fill(0)
 
 // simulate async db call with promise
 const findUser = (id) => new Promise((resolve, reject) => {
-  const user = users.find(user => user.id === id)
+  const user = users.find(user => {
+    console.log(id, 'inside map find thing')
+    return user.id === id})
+
+  console.log(user, 'insideFindUser')
   if (user) {
     return resolve(user)
   }
