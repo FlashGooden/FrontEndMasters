@@ -1,0 +1,13 @@
+{
+  "name": "intro-react",
+  "version": "1.0.0",
+  "description": "this is it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && mkdir casino && exit 1",
+    "loony": "Error: noooooo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
